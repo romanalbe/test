@@ -8,6 +8,7 @@ private class ScreeningEmailServiceHandlerTest {
         Contact testContact = new Contact();
         testContact.LastName = 'Test Contact';
         testContact.Email = 'test@example.com';
+        //testContact.Email = 'test@example.com';
         insert testContact;
 
         Messaging.InboundEmail testEmail = new Messaging.InboundEmail();
