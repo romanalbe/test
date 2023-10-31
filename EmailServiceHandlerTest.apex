@@ -224,6 +224,15 @@ private class ScreeningEmailServiceHandlerTest {
         ScreeningEmailServiceHandler handler3 = new ScreeningEmailServiceHandler();
         handler3.handleInboundEmail(email3, new Messaging.InboundEnvelope());
 
+        Messaging.InboundEmail email3 = new Messaging.InboundEmail();
+        email3.fromAddress = 'john.doe@example.com';
+        email3.htmlBody = '<p>Test Email HTML Body</p>';
+        email3.messageId = '11223';
+        email3.inReplyTo = '11223';
+
+        ScreeningEmailServiceHandler handler3 = new ScreeningEmailServiceHandler();
+        handler3.handleInboundEmail(email3, new Messaging.InboundEnvelope());
+
     }
 
     @isTest
