@@ -11,6 +11,8 @@ private class ScreeningEmailServiceHandlerTest {
         //testContact.Email = 'test@example.com';
         insert testContact;
 
+        System.assertEquals(true, result.success);
+
         Messaging.InboundEmail testEmail = new Messaging.InboundEmail();
         testEmail.subject = 'Test Subject';
         testEmail.fromAddress = 'test@example.com';
