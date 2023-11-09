@@ -12,6 +12,7 @@ private class ScreeningEmailServiceHandlerTest {
         insert testContact;
 
         System.assertEquals(true, result.success);
+        System.assertNotEquals(true, result.success);
 
         Messaging.InboundEmail testEmail = new Messaging.InboundEmail();
         testEmail.subject = 'Test Subject';
