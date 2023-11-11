@@ -26,6 +26,7 @@ private class ScreeningEmailServiceHandlerTest {
 
         Test.startTest();
 
+
         ScreeningEmailServiceHandler emailHandler = new ScreeningEmailServiceHandler();
         Messaging.InboundEmailResult result = emailHandler.handleInboundEmail(testEmail, testEnvelope);
 
