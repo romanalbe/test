@@ -24,7 +24,7 @@ private class ScreeningEmailServiceHandlerTest {
         
         Messaging.InboundEnvelope testEnvelope = new Messaging.InboundEnvelope();
 
-        Test.startTest();
+        Test.startTest();//
 
 
         ScreeningEmailServiceHandler emailHandler = new ScreeningEmailServiceHandler();
