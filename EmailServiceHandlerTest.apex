@@ -3,7 +3,8 @@ private class ScreeningEmailServiceHandlerTest {
     
     @isTest
     static void testHandleInboundEmail() {
-        
+
+
         // Create test data
         Contact testContact = new Contact();
         testContact.LastName = 'Test Contact';
