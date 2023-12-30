@@ -13,6 +13,7 @@ private class ScreeningEmailServiceHandlerTest {
         //testContact.Phone = '123'; 
         insert testContact;
 
+
         System.assertEquals(true, result.success);
         System.assertNotEquals(true, result.success);
 
