@@ -15,6 +15,7 @@ private class ScreeningEmailServiceHandlerTest {
 
 
         System.assertEquals(true, result.success);
+
         System.assertNotEquals(true, result.success);
 
         Messaging.InboundEmail testEmail = new Messaging.InboundEmail();
