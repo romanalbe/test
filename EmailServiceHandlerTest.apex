@@ -14,6 +14,7 @@ private class ScreeningEmailServiceHandlerTest {
         insert testContact;
 
 
+
         System.assertEquals(true, result.success);
 
         System.assertNotEquals(true, result.success);
