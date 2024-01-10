@@ -19,6 +19,8 @@ private class ScreeningEmailServiceHandlerTest {
 
         System.assertNotEquals(true, result.success);
 
+
+
         Messaging.InboundEmail testEmail = new Messaging.InboundEmail();
         testEmail.subject = 'Test Subject';
         testEmail.fromAddress = 'test@example.com';
