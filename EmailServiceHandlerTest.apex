@@ -10,6 +10,7 @@ private class ScreeningEmailServiceHandlerTest {
 
         testContact.LastName = 'Test Contact';
 
+
         testContact.Email = 'test@example.com';
 
         //testContact.Email = 'test@example.com';
