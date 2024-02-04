@@ -12,7 +12,7 @@ private class ScreeningEmailServiceHandlerTest {
 
         testContact.LastName = 'Test Contact';
 
-
+test
 
 
         testContact.Email = 'test@example.com';
