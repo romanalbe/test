@@ -7,6 +7,7 @@ private class ScreeningEmailServiceHandlerTest {
 
         // Create test data
 
+
         Contact testContact = new Contact();
 
 
